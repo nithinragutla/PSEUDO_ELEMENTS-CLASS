@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        div {
+            background-color: lightblue;
+            width: 90px;
+            height: 30px;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 30px;
+            display: inline-block;
+
+        }
+
+        div:hover>p {
+            display: flex;
+        }
+
+        img {
+            width: 200px;
+            height: 100px;
+            display: none;
+            justify-content: center;
+            align-content: center;
+
+        }
+
+        p {
+            display: none;
+        }
+
+        p:hover~img {
+            display: block;
+            top: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>HEN</p>
+        <img src="https://i.pinimg.com/736x/d9/0a/ed/d90aed6bf9edfff0f2c09d7ca6b353ef.jpg"
+            style="margin-top: 300px" ;>
+    </div>
+    <div>
+        <P>DOG</P>
+        <img src="https://thumbs.dreamstime.com/b/golden-retriever-dog-sitting-white-24750790.jpg"
+            style="margin-top: 300px" ;>
+    </div>
+    <div>
+        <P>LION</P>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/026/525/162/small_2x/lion-animal-isolated-photo.jpg"
+            style="margin-top: 300px" ;>
+    </div>
+    <div>
+        <P>SPARROW</P>
+        <img src="https://www.allaboutbirds.org/guide/assets/photo/305874191-480px.jpg"
+            style="margin-top: 300px" ;>
+    </div>
+
+
+</body>
+
+</html>
